@@ -5,7 +5,7 @@ public class Main3 {
 
     public static void main(String[] args) throws SQLException {
 
-        String connection_str = "jdbc:oracle:thin:@18.206.235.47:1521:xe"; // replace ip with your ip
+        String connection_str = "jdbc:oracle:thin:@100.24.42.159:1521:xe"; // replace ip with your ip
         String db_user = "hr";
         String db_password = "hr";
 
@@ -54,7 +54,9 @@ public class Main3 {
 
 
 
-
+        rs.close();
+        stmt.close();
+        conn.close();
 
 
 
