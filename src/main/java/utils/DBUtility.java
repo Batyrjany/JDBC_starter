@@ -1,16 +1,11 @@
 package utils;
-
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
-
 public class DBUtility {
-
 
     private static Connection connection;
     private static PreparedStatement statement;
@@ -24,6 +19,10 @@ public class DBUtility {
                             ConfigurationReader.getProperty("oracledb.user"),
                             ConfigurationReader.getProperty("oracledb.password"));
                     break;
+                case MYSQL:
+                    System.out.println("do some mysql stuff");
+                    break;
+
                 default:
                     connection = null;
 
@@ -48,16 +47,18 @@ public class DBUtility {
     }
 
     public static List<Map<String,Object>> runSQLQuery(String sql){
+
         try {
             statement = connection.prepareStatement(sql,ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
             resultSet = statement.executeQuery();
 
             List<Map<String,Object>> list = new ArrayList<>();
-            ResultSetMetaData rsMdata = resultSet.getMetaData();
 
+            ResultSetMetaData rsMdata = resultSet.getMetaData();
             int colCount = rsMdata.getColumnCount();
 
             while(resultSet.next()) {
+
                 Map<String,Object> rowMap = new HashMap<>();
 
                 for(int col = 1; col <= colCount; col++) {

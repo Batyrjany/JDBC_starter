@@ -19,14 +19,30 @@ public class Util_Main {
 
 
         DBUtility.establishConnection(DBType.ORACLE);
+
         System.out.println(DBUtility.getRowsCount("select * from employees"));
 
         List<Map<String,Object>> rsLst = DBUtility.runSQLQuery("select * from employees");
 
+<<<<<<< HEAD
+=======
+        // PRINT OUT ALL THE EMPLOYEE NAME AND SALARY , JUST BY PASSING "select * from employees"
+        // TO THE UTILITY
+        // NAME IS  BLA BLA , SALARY IS 6 DIGIT
+
+        for ( Map<String,Object> rowMap   :  rsLst  ) {
+            System.out.println("Name: "+ rowMap.get("FIRST_NAME")+" | "
+                              +"Salary: "+rowMap.get("SALARY"));
+        }
+
+
+>>>>>>> a03aaf9f3d084c8d12c24018a26ef87b4dabc10c
 
         DBUtility.closeConnections();
 
-        System.out.println(rsLst.toString());
+
+
+
 
 
         for (Map<String,Object> rowMap: rsLst) {
