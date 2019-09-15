@@ -6,14 +6,18 @@ import io.restassured.response.Response;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static io.restassured.RestAssured.*;
+import java.util.List;
+import java.util.Map;
+
+import static io.restassured.RestAssured.get;
+import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
 
 public class SpartanRest_Test {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://3.89.115.0";
+        RestAssured.baseURI = "http://18.209.44.3";
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
@@ -173,6 +177,59 @@ public void Search_By_Providing_Query_Parameter(){
         System.out.println(     response.path("phone").toString()               );
 
         assertEquals(  "Nels", response.path("name").toString()   );
+
+    }
+
+    @Test
+    public void test_A_Spartan_Map(){
+
+        Response response = given().pathParam("my_id",1)
+                .get("/spartans/{my_id}");
+        //response.prettyPrint();
+
+        Map<String, Object> myJsonMap = response.jsonPath().getMap("");
+        System.out.println(myJsonMap);
+        System.out.println(myJsonMap.get("id"));
+        System.out.println(myJsonMap.get("name"));
+        System.out.println(myJsonMap.get("gender"));
+        System.out.println(myJsonMap.get("phone"));
+
+
+    }
+
+    @Test
+    public void test_Spartan_List_of_Map(){
+
+        Response response = given()
+                .get("/spartans");
+        //response.prettyPrint();
+
+        List<Map<String, Object>> myJsonListMap = response.jsonPath().getList("");
+        System.out.println(myJsonListMap);
+
+        for (Map<String, Object> map:
+                myJsonListMap) {
+            System.out.println(map);
+        }
+
+    }
+
+    @Test
+    public void Search_All_Spartan_Map_Test() {
+
+        Response response = given().
+                accept(ContentType.JSON).
+                queryParam("gender", "Male").
+                //param("gender","Male").
+                        when().
+                        get("/spartans/search");
+        List<Map<String, Object>> myJsonListMap = response.jsonPath().getList("content");
+        System.out.println(myJsonListMap);
+
+        for (Map<String, Object> map :
+                myJsonListMap) {
+            System.out.println(map);
+        }
 
     }
 }
