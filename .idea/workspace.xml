@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SerializingAndDeserializing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/Spartan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_API_Sunday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan_Rest_API_Sunday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WritingTestUnderSrcTestJav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JDBC_starter.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JDBC_starter.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestPractice/BaseURIDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestPractice/BaseURIDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/RestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/scenarios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestPractice/RestPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestPractice/RestPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/APIDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
