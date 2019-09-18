@@ -5,6 +5,7 @@ import io.restassured.response.Response;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import utils.ConfigurationReader;
 
 
 import java.util.List;
@@ -17,7 +18,7 @@ public class HR_ORDS_REST_API_Test {
 
     @BeforeClass
     public static void setUp() {
-        baseURI = "http://54.145.11.232"; // your own IP goes here
+        baseURI = ConfigurationReader.getProperty("spartan.base_uri");
         port = 1000;
         basePath = "/ords/hr";
         // above will generate a BASE REQUEST URL OF http://54.145.11.232:1000/ords/hr/regions

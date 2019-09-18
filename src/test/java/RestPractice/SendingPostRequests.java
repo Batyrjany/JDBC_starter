@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import utils.ConfigurationReader;
 
 import java.io.File;
 import java.util.HashMap;
@@ -16,7 +17,7 @@ public class SendingPostRequests {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://3.89.115.0";
+        RestAssured.baseURI = ConfigurationReader.getProperty("spartan.base_uri");
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api

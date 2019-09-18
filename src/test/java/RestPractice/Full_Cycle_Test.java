@@ -20,6 +20,7 @@ public class Full_Cycle_Test extends TestBase{
         given()
                 .log().all()
                 .pathParam("id",spartanID)
+                .contentType(ContentType.JSON)
                 .body(new Spartan("Zeynep","Female",1231231231)).
         when()
                 .put("/spartans/{id}",spartanID).

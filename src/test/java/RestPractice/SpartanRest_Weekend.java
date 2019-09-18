@@ -1,27 +1,26 @@
     package RestPractice;
 
     import io.restassured.RestAssured;
-    import io.restassured.http.ContentType;
-    import io.restassured.response.Response;
-    import io.restassured.specification.RequestSpecification;
-    import org.junit.BeforeClass;
-    import org.junit.Test;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
-    import java.util.List;
-    import java.util.Map;
+import java.util.List;
+import java.util.Map;
 
-    import static io.restassured.RestAssured.get;
-    import static io.restassured.RestAssured.given;
-    import static org.junit.Assert.*;
+import static io.restassured.RestAssured.get;
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.*;
 
     public class SpartanRest_Weekend {
 
         @BeforeClass
         public static void setUp() {
-            RestAssured.baseURI = "http://3.89.115.0";
+            RestAssured.baseURI = "http://18.209.44.3";
             RestAssured.port = 8000;
             RestAssured.basePath = "/api";
-            // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
+            // above will generate a BASE REQUEST URL OF http://18.209.44.3:8000/api
         }
 
         @Test

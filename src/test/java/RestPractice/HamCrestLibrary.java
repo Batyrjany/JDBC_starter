@@ -1,22 +1,20 @@
 package RestPractice;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import utils.ConfigurationReader;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class HamCrestLibrary {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://3.89.115.0";
+        RestAssured.baseURI = ConfigurationReader.getProperty("spartan.base_uri");
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
