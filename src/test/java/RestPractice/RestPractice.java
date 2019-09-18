@@ -10,11 +10,11 @@ import static org.junit.Assert.assertTrue;
 
 public class RestPractice {
 
-    //ec2-3-83-246-142.compute-1.amazonaws.com
+    //ec2-18-209-44-3.compute-1.amazonaws.com
 
-    // http://52.23.254.102:8000/api/hello
+    // http://18.209.44.3:8000/api/hello
     /*
-     * http://52.23.254.102 or this ec2-3-83-246-142.compute-1.amazonaws.com
+     * http://18.209.44.3 or this ec2-18-209-44-3.compute-1.amazonaws.com
      *           is your baseURL | Hostname
      * 8000 is the port for this particular
      * entry point | base path to your Rest API  ---    /api
@@ -22,10 +22,10 @@ public class RestPractice {
      * */
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://52.23.254.102";
+        RestAssured.baseURI = "http://18.209.44.3";
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
-        // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
+        // above will generate a BASE REQUEST URL OF http://18.209.44.3:8000/api
     }
 
     @Test

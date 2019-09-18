@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/RestApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/RestApiDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan_Rest_API_Sunday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan_Rest_API_Sunday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/EnumPractice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/EnumPractice$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/JDBC_PreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/JDBC_PreparedStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/MetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/MetaData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/RestApiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/RestApiDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Util_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Util_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JDBC_starter.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JDBC_starter.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Full_Cycle_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/Full_Cycle_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/HR_ORDS_REST_API_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/HR_ORDS_REST_API_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/HamCrestLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/HamCrestLibrary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RestPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/RestPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RoleBasedAccessControlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/RoleBasedAccessControlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SendingPostRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SendingPostRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Weekend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Weekend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan_Rest_API_Sunday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan_Rest_API_Sunday.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +29,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1342" />
-    <option name="height" value="821" />
   </component>
   <component name="ProjectId" id="1R173kequE9Y60MdzuCC9MbusmM" />
   <component name="PropertiesComponent">
@@ -198,11 +168,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="masterDetails">
     <states>

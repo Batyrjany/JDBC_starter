@@ -25,7 +25,7 @@ public class RoleBasedAccessControlTest extends TestBase {
                 .log().all()
                 .accept(ContentType.JSON).
                 when()
-                .get("/spartans/117").
+                .get("/spartans/107").
                 then()
                 .log().all()
                 .statusCode(401);
@@ -52,7 +52,7 @@ public class RoleBasedAccessControlTest extends TestBase {
                 .log().all()
                 .accept(ContentType.JSON).
                 when()
-                .get("/spartans/117").
+                .get("/spartans/107").
                 then()
                 .log().all()
                 .statusCode(200);
@@ -76,7 +76,7 @@ public class RoleBasedAccessControlTest extends TestBase {
                 // this is how we do basic auth authentication in RestAssured
                 .auth().basic(username, password)
                 .log().all()
-                .pathParam("spartan_id", 117)
+                .pathParam("spartan_id", 107)
                 .contentType(ContentType.JSON)
                 .body(new Spartan("Asim", "Male", 987654321)).
 
@@ -107,7 +107,7 @@ public class RoleBasedAccessControlTest extends TestBase {
                 // this is how we do basic auth authentication in RestAssured
                 .auth().basic(username, password)
                 .log().all()
-                .pathParam("spartan_id", 117)
+                .pathParam("spartan_id", 107)
                 .contentType(ContentType.JSON)
                 .body(new Spartan("Asim", "Male", 987654321)).
 
