@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 public class JDBC_PreparedStatement {
 
 
+
     public static void main(String[] args) {
 
 
@@ -24,6 +25,7 @@ public class JDBC_PreparedStatement {
             //Statement stmt = conn.createStatement();
 //            Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE
 //                    , ResultSet.CONCUR_UPDATABLE);
+
 
             /// Prepared statement pre-compile your sql query ,
             // and query is part of the PreparedStatement object

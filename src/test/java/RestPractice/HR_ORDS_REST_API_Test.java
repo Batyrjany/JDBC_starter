@@ -5,25 +5,27 @@ import io.restassured.response.Response;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import utils.ConfigurationReader;
+
 
 import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.*;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class HR_ORDS_REST_API_Test {
 
     @BeforeClass
     public static void setUp() {
-        baseURI = "http://18.209.44.3"; // your own IP goes here
+        baseURI = ConfigurationReader.getProperty("spartan.base_uri");
         port = 1000;
         basePath = "/ords/hr";
         // above will generate a BASE REQUEST URL OF http://54.145.11.232:1000/ords/hr/regions
     }
 
     @Test
-    public void test_all_regions() {
+    public void test_all_regions(){
 
         Response response = get("/regions");
         //response.prettyPrint();
@@ -38,7 +40,7 @@ public class HR_ORDS_REST_API_Test {
 
         // get all the href field from the regions
         String all_regionlinks = response.jsonPath()
-                .getString("items[1].links[0].href");
+                        .getString("items[1].links[0].href");
         System.out.println(all_regionlinks);
 
 
@@ -49,30 +51,30 @@ public class HR_ORDS_REST_API_Test {
         // FIND OUT THE LAST LINKS ON TOP LEVEL
         // ASSERT THE rel value is first
         String lastLinksRel = response.jsonPath().getString("links[3].rel");
-        assertEquals("first", lastLinksRel);
+        assertEquals("first",lastLinksRel);
 
         System.out.println(all_regionlinksList);
 
-        assertEquals(200, response.statusCode());
+        assertEquals(200,response.statusCode());
 
     }
 
     @Test
-    public void test_single_Region() {
+    public void test_single_Region(){
 
-        Response response = given().pathParam("my_id", 1)
-                .get("/regions/{my_id}");
+        Response response = given().pathParam("my_id",1)
+                                .get("/regions/{my_id}");
 
         response.prettyPrint();
 
         Map<String, Object> myJsonMap = response.jsonPath().getMap("");
-        System.out.println(myJsonMap.get("region_name"));
-        System.out.println(myJsonMap.get("links"));
+        System.out.println( myJsonMap.get("region_name")  );
+        System.out.println( myJsonMap.get("links")  );
 
     }
 
     @AfterClass
-    public static void tearDown() {
+    public static void tearDown(){
         // this will reset all the set up we made to avoid accidental collusion between different test class
         RestAssured.reset();
     }

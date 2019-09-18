@@ -4,19 +4,20 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import utils.ConfigurationReader;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class SendingPostRequests {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://18.209.44.3";
+        RestAssured.baseURI = ConfigurationReader.getProperty("spartan.base_uri");
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
@@ -78,9 +79,9 @@ public class SendingPostRequests {
                 .log().all()
                 .contentType(ContentType.JSON)
                 .body(bodyMap).
-                when()
+        when()
                 .post("/spartans").
-                then()
+        then()
                 .log().all()
                 .statusCode(201)
                 .contentType(ContentType.JSON)
@@ -122,9 +123,9 @@ public class SendingPostRequests {
                 .log().all()
                 .contentType(ContentType.JSON)
                 .body(new File("src/test/resources/data.json")).
-                when()
+        when()
                 .post("/spartans").
-                then()
+        then()
                 .log().all()
                 .statusCode(201)
                 .contentType(ContentType.JSON)

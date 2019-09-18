@@ -2,7 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JDBC_starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/BaseURIDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/DeserializingJsonToJavaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/Full_Cycle_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/RestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SendingPostRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/Spartan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_API_Sunday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/BaseURIDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/DeserializingJsonToJavaObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/Full_Cycle_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/HR_ORDS_REST_API_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/HamCrestLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/RestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/SendingPostRequests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/SerializingAndDeserializing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/Spartan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/SpartanRest_API_Sunday.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/SpartanRest_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/SpartanRest_Weekend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RestPractice/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/JDBC_PreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/JDBC_PreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/MetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/MetaData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC/Util_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC/Util_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/JsonSchemaValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/JsonSchemaValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,11 +50,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,18 +75,27 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1R173kequE9Y60MdzuCC9MbusmM" />
+  <component name="ProjectId" id="1Qo5B9UwHkVyVjUFpiJMC6YDwaQ" />
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RestPractice" />
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="RetsPractice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,8 +110,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WritingTestUnderSrcTestJav.hello">
-    <configuration name="SpartanRest_Weekend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test">
+    <configuration name="DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -59,13 +120,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SpartanRest_Weekend" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.DeserializingJsonToJavaObject" />
+      <option name="METHOD_NAME" value="DeserializeAnJsonToObject_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Full_Cycle_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestPractice" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanRest_Weekend.Search_By_Providing_Query_Parameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test.getSpartanAndDelete_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +151,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SpartanRest_Weekend" />
-      <option name="METHOD_NAME" value="Search_By_Providing_Query_Parameter" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartanAndDelete_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanRest_Weekend.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test.getSpartan_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +167,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SpartanRest_Weekend" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartan_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanRest_Weekend.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test.getSpartan_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -106,18 +183,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SpartanRest_Weekend" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WritingTestUnderSrcTestJav.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_starter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WritingTestUnderSrcTestJav" />
-      <option name="METHOD_NAME" value="hello" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartan_Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,23 +192,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WritingTestUnderSrcTestJav.hello" />
-        <item itemvalue="JUnit.SpartanRest_Weekend" />
-        <item itemvalue="JUnit.SpartanRest_Weekend.Search_By_Providing_Query_Parameter" />
-        <item itemvalue="JUnit.SpartanRest_Weekend.test1" />
-        <item itemvalue="JUnit.SpartanRest_Weekend.test2" />
+        <item itemvalue="JUnit.DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartanAndDelete_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartan_Test2" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartan_Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -169,11 +226,35 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -186,6 +267,17 @@
         </settings>
       </state>
       <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

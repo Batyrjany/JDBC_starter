@@ -10,6 +10,7 @@ import utils.ConfigurationReader;
 import static io.restassured.RestAssured.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
+
 public class JsonSchemaValidation {
 
     @BeforeClass
