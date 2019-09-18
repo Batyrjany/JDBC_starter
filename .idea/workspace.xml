@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/RestApiDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/BookIt_With_Bearer_Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestApiDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/auth_note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/JDBC/RestApiDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/BookIt_With_Bearer_Token.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/Full_Cycle_Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/RestApiDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/RoleBasedAccessControlTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/TestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/DeserializingJsonToJavaObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/DeserializingJsonToJavaObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/EnumPractice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/EnumPractice$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/JDBC_PreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/JDBC_PreparedStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/MetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/MetaData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JDBC/Util_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JDBC/Util_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/DeserializingJsonToJavaObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/DeserializingJsonToJavaObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RestPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/RestPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SendingPostRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SendingPostRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Weekend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Weekend.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
