@@ -1,13 +1,8 @@
 package RestPractice;
 
-import io.restassured.http.ContentType;
-import org.junit.Test;
-
-
-
-import static io.restassured.RestAssured.given;
-
 public class Spartan {
+
+    //private long id;
 
 private String name;
 private String gender;
@@ -18,6 +13,18 @@ private long phone;
         this.gender = gender;
         this.phone = phone;
     }
+//    @JsonIgnore  // this will enable us to ignore ID field from being written into json
+//    // this will happen when you do seriliaze
+//    public long getId() {
+//        return id;
+//    }
+
+
+//    @JsonProperty // this will specifically tell to write this into pojo from json
+//    // this will happen when you do deseriliaze
+//    public void setId(long id) {
+//        this.id = id;
+//    }
 
     public String getName() {
         return name;
@@ -43,24 +50,13 @@ private long phone;
         this.phone = phone;
     }
 
-    @Test
-    public void Add_NewSpartan_withPojoAsBody_Test() {
-
-
-        Spartan spartan = new Spartan("Myensulu","Female",123123123);
-        given()
-                .log().all()
-                .contentType(ContentType.JSON)
-                .body(spartan)
-                .when()
-                .post("/spartans")
-                .then()
-                .log().all()
-                .statusCode(201);
-
-
-
-
+    @Override
+    public String toString() {
+        return "Spartan{" +
+              //  "id=" + id +
+                "name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", phone=" + phone +
+                '}';
     }
-
 }

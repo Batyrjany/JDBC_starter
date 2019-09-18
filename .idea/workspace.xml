@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan_Rest_API_Sunday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WritingTestUnderSrcTestJav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/DeserializingJsonToJavaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/Full_Cycle_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/SendingPostRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestPractice/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/RestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/scenarios.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RestPractice/RestPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestPractice/RestPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/APIDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DBUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/SerializingAndDeserializing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestPractice/Spartan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestPractice/Spartan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestPractice/SendingPostRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestPractice/SendingPostRequests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestPractice/Spartan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestPractice/Spartan.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Spartan">
-    <configuration name="SerializingAndDeserializing.Add_NewSpartan_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test">
+    <configuration name="DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SerializingAndDeserializing" />
-      <option name="METHOD_NAME" value="Add_NewSpartan_Test" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.DeserializingJsonToJavaObject" />
+      <option name="METHOD_NAME" value="DeserializeAnJsonToObject_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializingAndDeserializing.Single_Spartan_LoggingAll_Details_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -114,29 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SerializingAndDeserializing" />
-      <option name="METHOD_NAME" value="Single_Spartan_LoggingAll_Details_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.Spartan" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanRest_API_Sunday.Single_Spartan_Map_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test.getSpartanAndDelete_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -145,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.SpartanRest_API_Sunday" />
-      <option name="METHOD_NAME" value="Single_Spartan_Map_Test" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartanAndDelete_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spartan.Add_NewSpartan_withPojoAsBody_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Full_Cycle_Test.getSpartan_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_starter" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +136,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="RestPractice" />
-      <option name="MAIN_CLASS_NAME" value="RestPractice.Spartan" />
-      <option name="METHOD_NAME" value="Add_NewSpartan_withPojoAsBody_Test" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartan_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Full_Cycle_Test.getSpartan_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestPractice" />
+      <option name="MAIN_CLASS_NAME" value="RestPractice.Full_Cycle_Test" />
+      <option name="METHOD_NAME" value="getSpartan_Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Spartan" />
-        <item itemvalue="JUnit.Spartan.Add_NewSpartan_withPojoAsBody_Test" />
-        <item itemvalue="JUnit.SerializingAndDeserializing.Add_NewSpartan_Test" />
-        <item itemvalue="JUnit.SerializingAndDeserializing.Single_Spartan_LoggingAll_Details_Test" />
-        <item itemvalue="JUnit.SpartanRest_API_Sunday.Single_Spartan_Map_Test" />
+        <item itemvalue="JUnit.DeserializingJsonToJavaObject.DeserializeAnJsonToObject_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartanAndDelete_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartan_Test2" />
+        <item itemvalue="JUnit.Full_Cycle_Test.getSpartan_Test" />
       </list>
     </recent_temporary>
   </component>
