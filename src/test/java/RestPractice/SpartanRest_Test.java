@@ -13,7 +13,7 @@ public class SpartanRest_Test {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://3.89.115.0";
+        RestAssured.baseURI = "http://18.209.44.3";
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
@@ -62,7 +62,7 @@ public class SpartanRest_Test {
         response.prettyPrint();
         assertEquals(200, response.statusCode());
         assertEquals("application/json;charset=UTF-8",response.contentType());
-        assertTrue(  response.asString().contains("Nels")    );
+        assertTrue(  response.asString().contains("John Doe1")    );
 
     }
 //    Given Accept header is provided as Json
@@ -172,7 +172,7 @@ public void Search_By_Providing_Query_Parameter(){
         System.out.println(     response.path("name").toString()               );
         System.out.println(     response.path("phone").toString()               );
 
-        assertEquals(  "Nels", response.path("name").toString()   );
+        assertEquals(  "John Doe1", response.path("name").toString()   );
 
     }
 }

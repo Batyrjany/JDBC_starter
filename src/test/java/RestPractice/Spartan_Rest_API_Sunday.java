@@ -35,10 +35,10 @@ public class Spartan_Rest_API_Sunday {
                 .statusCode(200)
                 .contentType(ContentType.JSON)
                 .assertThat()
-                .body("[0].name", equalTo("Nels"))
+               .body("[0].name", equalTo("Fidole"))
                 .body("name", hasItem("Fidole"))
-                //.body("name", hasSize(114) )
-                .body("[1].gender", is("Male"))
+                .body("name", hasSize(139) )
+               .body("[1].gender", is("Female"))
                 .header("Transfer-Encoding", "chunked")
                 .header("Date", notNullValue())
 
@@ -49,7 +49,7 @@ public class Spartan_Rest_API_Sunday {
 
     // logging in RestAssured
     @Test
-    public void Single_Spartan_LoggingAll_Detals_Test() {
+    public void Single_Spartan_LoggingAll_Details_Test() {
 
         given()
                 .pathParam("my_id", 3)

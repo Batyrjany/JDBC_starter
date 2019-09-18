@@ -17,7 +17,7 @@ public class HR_ORDS_REST_API_Test {
 
     @BeforeClass
     public static void setUp() {
-        baseURI = "http://54.145.11.232"; // your own IP goes here
+        baseURI = "http://18.209.44.3"; // your own IP goes here
         port = 1000;
         basePath = "/ords/hr";
         // above will generate a BASE REQUEST URL OF http://54.145.11.232:1000/ords/hr/regions
