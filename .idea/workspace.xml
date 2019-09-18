@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4e79a9-fc3c-42fc-bf04-dbccc9d75b3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
